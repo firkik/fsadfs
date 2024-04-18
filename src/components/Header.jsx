@@ -56,7 +56,7 @@ export default function Header() {
       </header>
       <div className={`productMenuContainer ${isOnen ? "active": ""}`} id="productMenuContainer">
         <a href={SOCIALS.bot} className="telegramBtn">CookieNFT</a>
-        <a href="./about.html"><button className="nextPage">CookieBitten</button></a>
+        <a href="/about.html"><button className="nextPage">CookieBitten</button></a>
       </div>
     </div>
   );
