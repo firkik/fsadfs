@@ -28,33 +28,9 @@
     visibility: visible;
 }
 
-/* @keyframes open-menu {
-    0% {
-        height: 0;
-        opacity: 0;
-    }
-
-    100% {
-        height: 100px;
-        opacity: 1;
-    }
-}
-
-@keyframes close-menu {
-    0% {
-        height: 100px;
-        opacity: 1;
-    }
-
-    100% {
-        height: 0;
-        opacity: 0;
-    }
-} */
-
 /*  Переход в ТГ  */
 
-.productMenuContainer a {
+.telegramBtn {
     color: #000;
     font-size: 24px;
 }
@@ -65,13 +41,14 @@
 
 /*  Переход на другой сайт  */
 
-.productMenuContainer button {
+.nextPage {
     width: 200px;
     height: 60px;
     background-color: rgb(129, 95, 4, 0.4);
     border-radius: 4px;
     font-size: 24px;
     border: 1px solid rgb(129, 95, 4, 0.1);
+    color: #fff;
 }
 
 @media (max-width: 640px) {
