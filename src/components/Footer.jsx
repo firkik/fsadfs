@@ -16,7 +16,7 @@ export default function Footer() {
               <h3>Contact</h3>
             </li>
             <li>
-              <a href={SOCIALS.telegram}>TG: @cookietoken</a>
+              <a href={SOCIALS.telegram}>TG: @cookietokenmanager</a>
             </li>
           </ul>
         </div>
